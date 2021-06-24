@@ -97,7 +97,6 @@ textarea {
 
 
 html {
-  background-color: #fff;
   height: 100%;
 }
 
@@ -106,6 +105,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: url("../img/background.jpg");
 
 }
 
@@ -115,6 +115,15 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
@@ -129,16 +138,58 @@ body {
   justify-content: center;
   border-radius: 13%;
   box-shadow: black 10px 10px 10px;
-
-
 }
+.div-footer img {
+  height:40px;
+  width:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-footer li {
+  display:inline-block;
+  padding: 10px;
+  line-height:10px;
+  text-align: center;
+}
+
+.div-footer ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+
 p {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
   font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
 }
+
+h1 {
+  display: flex;
+  align-items:center;
+  justify-content:left;
+  padding: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+}
+footer  {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80px;
+width: 100%;
+color: white;
+}
+
+
+
 
 
 
